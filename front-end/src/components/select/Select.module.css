@@ -1,0 +1,11 @@
+.select{
+    height: 56px;
+    width: 240px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    cursor: pointer;
+}

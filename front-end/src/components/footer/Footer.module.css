@@ -1,0 +1,14 @@
+.footer {
+    background-color: whitesmoke;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem; 
+}

@@ -1,0 +1,20 @@
+.inputContainer {
+    position: relative;
+    display: inline-block;
+}
+  
+.input {
+    height: 52px;
+    width: 203px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding-left: 35px;
+    background-image: url('../../assets/icon-lupa.png');
+    background-size: 25px 25px;
+    background-position: 8px center;
+    background-repeat: no-repeat;
+  }
