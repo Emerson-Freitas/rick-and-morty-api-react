@@ -1,7 +1,3 @@
-.main {
-    /* height: 120vh; */
-    height: 240vh;
-}
 
 .content {
     font-family: 'Karla';
@@ -11,7 +7,7 @@
 }
 
 .logo{
-    margin-top: 20px;
+    margin: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +16,7 @@
 .section {
     width: 70%;
     margin: 2% 15%;
-    gap: 1%;
+    gap: 1.25rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -28,8 +24,8 @@
 
 .container_filters {
     width: 70%;
-    margin: 2% 15%;
-    gap: 1%;
+    margin: 1.25% 15%;
+    gap: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -42,5 +38,9 @@
 }
 
 .section .loadMore {
-    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 3rem;
 }

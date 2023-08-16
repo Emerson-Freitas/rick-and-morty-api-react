@@ -4,8 +4,8 @@ import { ICharacter } from '../../interfaces/ICharacter'
 import axios from 'axios'
 
 interface Props {
-    next?: string | null | undefined
-    prev?: string | null | undefined
+    next: string
+    prev: string
     text: string
     setButtonVisibility: (isVisible: boolean) => void
 }

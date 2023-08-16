@@ -2,14 +2,14 @@ import styles from './Input.module.css'
 
 interface Props {
   placeHolder: string
-  width?: string
 }
-const Input = ({placeHolder, width}: Props) => {
+const Input = ({placeHolder}: Props) => {
   return (
-    <div className={styles.inputContainer}>
-      <input style={{width: width}} className={styles.input} type="text" name="input" placeholder={placeHolder} />
+    <div className={styles.input_wrapper}>
+      <input className={styles.input} type="text" name="input" placeholder={placeHolder} />
     </div>
   )
+  
 }
 
 export default Input

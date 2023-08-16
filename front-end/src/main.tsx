@@ -1,13 +1,14 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import Characters from './routes/Characters.tsx'
-import Episodes from './routes/Episodes.tsx'
+import Characters from './routes/characters/Characters.tsx'
+import Episodes from './routes/episodes/Episodes.tsx'
 
 import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
+import Locations from './routes/locations/Locations.tsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/episodes",
         element: <Episodes/>
+      },
+      {
+        path: "/locations",
+        element: <Locations/>
       }
     ]
   }
